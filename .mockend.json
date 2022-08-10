@@ -4,10 +4,11 @@
   },
   "Station": {
     "line": {
-      "object": {},
+      "object": {
+        "name": "string"
+      },
       "belongsTo": "Line"
-    },
-    "name": "string"
+    }
   },
   "Activity": {},
   "Unit": {
