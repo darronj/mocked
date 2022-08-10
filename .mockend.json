@@ -9,15 +9,20 @@
     "line": {
       "belongsTo": "Line"
     },
-    "name": "string"
+    "name": {
+      "string": {}
+    }
   },
   "Activity": {
     "station": {
       "belongsTo": "Station"
     },
-    "name": "string",
-    "time": "date"
-  },
+    "name": {
+      "string": {}
+    },
+    "time": {
+      "date": {}
+    }
   },
   "Unit": {
     "serialNumber": {
