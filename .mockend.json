@@ -7,9 +7,7 @@
   },
   "Station": {
     "line": {
-      "stations": {
-        "belongsTo": "Line"
-      }
+      "belongsTo": "Line"
     },
     "name": "string"
   },
