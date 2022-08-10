@@ -1,6 +1,8 @@
 {
   "Line": {
-    "name": ["Bathroom", "Headwall", "Uber 1", "Uber 2"],
+    "name": {
+      "string": ["Bathroom", "Headwall", "Uber 1", "Uber 2"]
+    },
     "stations": {
       "hasMany": "Station"
     }
