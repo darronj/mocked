@@ -11,7 +11,14 @@
     },
     "name": "string"
   },
-  "Activity": {},
+  "Activity": {
+    "station": {
+      "belongsTo": "Station"
+    },
+    "name": "string",
+    "time": "date"
+  },
+  },
   "Unit": {
     "serialNumber": {
       "string": {}
