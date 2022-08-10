@@ -1,0 +1,15 @@
+# 1. List your fake users with a GET request
+
+curl <https://mockend.com/darronj/mocked/users>
+
+# 2. Fake a creation with a POST
+
+# (don't worry changes aren't persisted)
+
+curl <https://mockend.com/darronj/mocked/users> \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"name": "alice"}'
+
+# 3. Access your GraphQL endpoint
+<https://mockend.com/darronj/mocked/graphql>
