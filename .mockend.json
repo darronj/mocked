@@ -13,6 +13,9 @@
     },
     "name": {
       "string": {}
+    },
+    "activities": {
+      "hasMany": "Activity"
     }
   },
   "Activity": {
