@@ -1,14 +1,17 @@
 {
   "Line": {
-    "name": ["Bathroom", "Headwall", "Uber 1", "Uber 2"]
+    "name": ["Bathroom", "Headwall", "Uber 1", "Uber 2"],
+    "stations": {
+      "hasMany": "Station"
+    }
   },
   "Station": {
     "line": {
-      "object": {
-        "name": "string"
-      },
-      "belongsTo": "Line"
-    }
+      "stations": {
+        "belongsTo": "Line"
+      }
+    },
+    "name": "string"
   },
   "Activity": {},
   "Unit": {
