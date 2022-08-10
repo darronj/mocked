@@ -1,12 +1,15 @@
 {
-  "User": {
-    "name": {
+  "Unit": {
+    "serialNumber": {
+      "string": {}
+    },
+    "sku": {
       "string": {}
     },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    "statusMessage": {
+    "status": {
       "string": ["working from home", "watching Netflix"]
     },
     "email": {
