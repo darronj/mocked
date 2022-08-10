@@ -22,6 +22,9 @@
     },
     "time": {
       "date": {}
+    },
+    "operator": {
+      "string": {}
     }
   },
   "Unit": {
