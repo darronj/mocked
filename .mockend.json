@@ -1,4 +1,17 @@
 {
+  "Line": {
+    "name": ["Bathroom", "Headwall", "Uber 1", "Uber 2"]
+  },
+  "Station": {
+    "line": {
+      "<type>": {},
+      "belongsTo": "Line"
+    }
+    "name": "string"
+  },
+  "Activity": {
+
+  },
   "Unit": {
     "serialNumber": {
       "string": {}
@@ -10,19 +23,10 @@
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
     "status": {
-      "string": ["working from home", "watching Netflix"]
+      "string": ["Backlog", "Staged", "On Line", "Off Line", "Installed"]
     },
     "email": {
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
-      }
     },
     "isPublic": {
       "boolean": {}
