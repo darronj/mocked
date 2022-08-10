@@ -6,12 +6,10 @@
     "line": {
       "<type>": {},
       "belongsTo": "Line"
-    }
+    },
     "name": "string"
   },
-  "Activity": {
-
-  },
+  "Activity": {},
   "Unit": {
     "serialNumber": {
       "string": {}
